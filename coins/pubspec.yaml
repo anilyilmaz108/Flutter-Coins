@@ -1,0 +1,232 @@
+name: coins
+description: A new Flutter application.
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: 'none' # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.1+4
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  dots_indicator:
+  http:
+  flutter_native_splash:
+  multi_charts:
+  font_awesome_flutter:
+  animated_text:
+  search_page:
+  flutter_markdown:
+  animations:
+
+
+
+  # The following adds the Cupertino Icons font to your application.
+  # Use with the CupertinoIcons class for iOS style icons.
+  cupertino_icons: ^1.0.2
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+
+# The following section is specific to Flutter.
+flutter:
+
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+    - assets/USDT.png
+    - assets/DOT.png
+    - assets/XRP.png
+    - assets/USDC.png
+    - assets/AXS.png
+    - assets/ADA.png
+    - assets/BNB.png
+    - assets/MATIC.png
+    - assets/DOGE.png
+    - assets/BUSD.png
+    - assets/ETH.png
+    - assets/BTC.png
+    - assets/LINK.png
+    - assets/FIL.png
+    - assets/TLM.png
+    - assets/SOL.png
+    - assets/LTC.png
+    - assets/VET.png
+    - assets/CHZ.png
+    - assets/ETC.png
+    - assets/EOS.png
+    - assets/LTC.png
+    - assets/UST.png
+    - assets/NFT.png
+    - assets/JST.png
+    - assets/TLM.png
+    - assets/ETC.png
+    - assets/SNX.png
+    - assets/KAVA.png
+    - assets/BAR.png
+    - assets/ENJ.png
+    - assets/KSM.png
+    - assets/ICP.png
+    - assets/ATOM.png
+    - assets/HUSD.png
+    - assets/TRX.png
+    - assets/CAKE.png
+    - assets/SXP.png
+    - assets/CHR.png
+    - assets/BTCDOWN.png
+    - assets/SUN.png
+    - assets/ALICE.png
+    - assets/UST.png
+    - assets/BTT.png
+    - assets/THETA.png
+    - assets/AAVE.png
+    - assets/SLP.png
+    - assets/SHIB.png
+    - assets/DASH.png
+    - assets/UNI.png
+    - assets/LUNA.png
+    - assets/EOS.png
+    - assets/VET.png
+    - assets/BCH.png
+    - assets/HT.png
+    - assets/RUNE.png
+    - assets/XLM.png
+    - assets/SUSHI.png
+    - assets/TRX.png
+    - assets/SAND.png
+    - assets/ICP.png
+    - assets/THETA.png
+    - assets/CHR.png
+    - assets/SHIB.png
+    - assets/COMP.png
+    - assets/FTT.png
+    - assets/DASH.png
+    - assets/UNI.png
+    - assets/XMR.png
+    - assets/DAI.png
+    - assets/XTZUP.png
+    - assets/ZEC.png
+    - assets/NEO.png
+    - assets/ETHUP.png
+    - assets/BAKE.png
+    - assets/YFI.png
+    - assets/TFUEL.png
+    - assets/ALPHA.png
+    - assets/GRT.png
+    - assets/MDX.png
+    - assets/tfuel.png
+    - assets/MANA.png
+    - assets/FLOW.png
+    - assets/ALGO.png
+    - assets/BTCUP.png
+    - assets/XEM.png
+    - assets/HOT.png
+    - assets/SUSHIUP.png
+    - assets/OMG.png
+    - assets/TUSD.png
+    - assets/CRV.png
+    - assets/FET.png
+    - assets/SKL.png
+    - assets/XTZ.png
+    - assets/IOST.png
+    - assets/EGLD.png
+    - assets/BNBDOWN.png
+    - assets/ETH3L.png
+    - assets/ONT.png
+    - assets/BIDR.png
+    - assets/ETH3S.png
+    - assets/PAX.png
+    - assets/BNBUP.png
+    - assets/WBTC.png
+    - assets/ONE.png
+    - assets/ZRX.png
+    - assets/ETHDOWN.png
+    - assets/FTM.png
+    - assets/OGN.png
+    - assets/HBAR.png
+    - assets/CLV.png
+    - assets/MKR.png
+    - assets/1INCH.png
+    - assets/CELO.png
+    - assets/1INCH.png
+    - assets/busd.png
+    - assets/IOTX.png
+    - assets/ADX.png #**************
+    - assets/C98.png
+    - assets/DOGE.png
+    - assets/DEXE.png
+    - assets/AUDIO.png
+    - assets/EPS.png
+    - assets/SUPER.png
+    - assets/WAVES.png
+    - assets/TKO.png
+    - assets/DEGO.png
+    - assets/COCOS.png
+    - assets/TVK.png
+    - assets/LIT.png
+    - assets/REP.png
+    - assets/NEAR.png
+    - assets/O3.png
+    - assets/DODO.png
+    - assets/AMP.png
+    - assets/DENT.png
+    - assets/LINA.png
+    - assets/XVS.png
+    - assets/ANKR.png
+    - assets/CVC.png
+    - assets/RSR.png
+    - assets/ZIL.png
+    - assets/MASS.png
+    - assets/WIN.png
+    - assets/STORJ.png
+    - assets/DNT.png
+  #   - images/a_dot_ham.jpeg
+
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
